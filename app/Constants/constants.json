@@ -1,0 +1,12 @@
+{
+    "proxyName": "dockermanager_nginxproxy",
+    "proxyImage": "sslibs/nginx-proxy",
+    "proxyDisplayName": "Nginx Proxy",
+    "workRepository": "sslibs",
+    "appLabel": "com.dockerappsmanager.version",
+    "tempTarFileName": ".dockermanager_temp.tar",
+    "darwin":
+    {
+        "openTerminalCMD": "osascript -e 'tell app \"Terminal\" to activate' -e 'delay 0.4' -e 'tell app \"Terminal\"' -e 'do script \"bash -c \\\"%CMD%\\\"\"' -e 'end tell'"
+    }
+}

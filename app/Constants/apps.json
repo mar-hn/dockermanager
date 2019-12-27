@@ -1,0 +1,61 @@
+{
+    "coldfusion":
+    {
+        "homeURL": "http://%URL%:%VPORT:80%",
+        "adminURL": "http://%URL%:%VPORT:80%/CFIDE/Administrator",
+        "vports":
+        {
+            "80":
+            {
+                "nginxPort": "80",
+                "appProtocol": "http"
+            }
+        }
+    },
+    "lucee":
+    {
+        "homeURL": "http://%URL%:%VPORT:80%",
+        "adminURL": "http://%URL%:%VPORT:80%/lucee/admin/server.cfm",
+        "vports":
+        {
+            "80":
+            {
+                "nginxPort": "80",
+                "appProtocol": "http",
+                "nginxProtocol": "http"
+            }
+        }        
+    },
+    "glassfish":
+    {
+        "homeURL": "http://%URL%:%VPORT:8080%",
+        "adminURL": "https://%URL%:%VPORT:4848%",
+        "vports":
+        {
+            "8080": 
+            {
+                "nginxPort": "8080",
+                "appProtocol": "http",
+                "nginxProtocol": "http"
+            },
+            "4848": 
+            {
+                "nginxPort": "4848",
+                "appProtocol": "https",
+                "nginxProtocol": "https"
+            },
+            "8181": 
+            {
+                "nginxPort": "8181",
+                "appProtocol": "http",
+                "nginxProtocol": "http"
+            },
+            "9009": 
+            {
+                "nginxPort": "",
+                "appProtocol": "tcp",
+                "nginxProtocol": "tcp"
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "HOME": "/",
+  "COUNTER": "/counter",
+  "CONTAINERS": "/containers",
+  "CONTAINERADD": "/container/add",
+  "IMAGES": "/images",
+  "APPS": "/apps",
+  "APPSADD": "/apps/add",
+  "APPSEDIT": "/apps/edit",
+  "APPSOUTPUT": "/apps/output",
+  "SETTINGS": "/settings"
+}

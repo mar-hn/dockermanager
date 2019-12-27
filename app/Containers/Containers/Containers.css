@@ -1,0 +1,10 @@
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardList > div
+{
+    margin-left: 10px;
+    margin-bottom: 10px    
+}
